@@ -1,0 +1,191 @@
+<footer role="contentinfo">
+    <ul id="site-links">
+        <li>About Genesys</li>
+        <li class="menu-item "><a href="{{site.baseurl}}">Home</a></li>
+        <li class="menu-item "><a href="{{site.baseurl}}/about.html">About</a></li>
+        <li class="menu-item"><a href="{{site.baseurl}}/our-work.html">Our Work</a></li>
+    </ul>
+    <ul id="site-links">
+        <li>Connect With Us</li>
+        <li class="menu-item"><a href="{{site.baseurl}}/blog.html">Blog</a></li>
+        <li class="menu-item"><a href="{{site.baseurl}}/careers.html">Careers</a></li>
+        <li class="menu-item"><a href="{{site.baseurl}}/contac.html">Contact</a></li>
+    </ul>
+    <ul id="IT-Links">
+        <li>Services</li>
+        <li class="menu-item"><a href="{{site.baseurl}}/it-infrastructure.html">IT Infrastructure</a></li>
+        <li class="menu-item"><a href="{{site.baseurl}}/security.html">Security</a></li>
+        <li class="menu-item"><a href="{{site.baseurl}}/software.html">Software</a></li>
+        <li class="menu-item"><a href="{{site.baseurl}}/internet-of-things.html">Internet of Things</a></li>
+        <li class="menu-item"><a href="{{site.baseurl}}/mobility.html">Mobility</a></li>
+    </ul>
+    <ul id="contact-links">
+        <li><img src="{{site.baseurl}}/_assets/genesys_impact_logo.png" class="logo"></li>
+        <li>Contact Info</li>
+        <li><a href="https://www.google.com/maps/place/1003+K+St+NW,+Washington,+DC+20001/@38.902515,-77.0262653,3a,75y,356.48h,90t/data=!3m6!1e1!3m4!1sHkGp1NmA_wp9gpvb_znMTA!2e0!7i13312!8i6656!4m5!3m4!1s0x89b7b793a0863be3:0xad331c1b40ac0db9!8m2!3d38.9027418!4d-77.0262822">1003 K Street NW</a></li>
+        <li><a href="https://www.google.com/maps/place/1003+K+St+NW,+Washington,+DC+20001/@38.902515,-77.0262653,3a,75y,356.48h,90t/data=!3m6!1e1!3m4!1sHkGp1NmA_wp9gpvb_znMTA!2e0!7i13312!8i6656!4m5!3m4!1s0x89b7b793a0863be3:0xad331c1b40ac0db9!8m2!3d38.9027418!4d-77.0262822">Washington DC, 20001</a></li>
+        <li><a href="tel:2024505453"><span class="flaticon-telephone"></span> (202) 450-5453</a></li>
+        <li><a href="mailto:contact-us@genesysimpact.com">contact-us@genesysimpact.com</a></li>
+        <li class="social"><a href="https://www.facebook.com/genesysimpact"><span class="flaticon-facebook"></span></a> <a href="https://twitter.com/genesysimpact"><span class="flaticon-twitter"></span></a> <a href="https://plus.google.com/105683897744671902765/posts"><span class="flaticon-google"></span></a> <a href="https://github.com/genesysimpact"><span class="flaticon-github"></span></a></li>
+    </ul>
+</footer>
+<div id="copyright"><p>© {{ page.date | date: "%Y" }} Genesys Impact. All Rights Reserved.</p></div>
+
+<script src="{{site.baseurl}}/_assets/flickity.pkgd.min.js"></script>
+<script src="{{site.baseurl}}/_assets/jquery.mask.js"></script>
+<script>
+
+(function($) {
+    
+  (function($) {
+    //Hide all panels
+    var allPanels = $('.accordion > dd').hide();
+    //Show first panel
+    $('.accordion > dd:first-of-type').show();
+    //Add active class to first panel 
+    $('.accordion > dt:first-of-type').addClass('accordion-active');
+    //Handle click function
+    jQuery('.accordion > dt').on('click', function() {
+      //this clicked panel
+      $this = $(this);
+    //the target panel content
+      $target = $this.next(); 
+      
+       //Only toggle non-displayed 
+       if(!$this.hasClass('accordion-active')){
+          //slide up any open panels and remove active class
+          $this.parent().children('dd').slideUp();
+
+          //remove any active class
+         jQuery('.accordion > dt').removeClass('accordion-active');
+          //add active class
+          $this.addClass('accordion-active');
+          //slide down target panel
+         $target.addClass('active').slideDown();
+      } 
+
+    return false;
+ });
+
+ })(jQuery)
+
+})(jQuery);
+
+    $('.main-gallery').flickity({
+      // options
+      cellAlign: 'center',
+      prevNextButtons: false,
+      contain: true,
+      adaptiveHeight: false,
+      freeScroll: false,
+      imagesLoaded: true,
+      wrapAround: true,
+      groupCells: 2,
+      autoPlay: true,
+      autoPlay: 5000,
+      selectedAttraction: 0.0175,
+      setGallerySize: true
+    });
+
+	$('#phone').mask("+1(000)000-0000", {
+	});
+	
+	$('textarea').blur(
+        function(){
+            $(this).css('border-bottom','2px solid #8f819b');
+        });
+    $(document).scroll(function() {
+      var y = $(this).scrollTop();
+      if (y > 80) {
+        $('header').addClass("affix");
+      } else {
+        $('header').removeClass("affix");
+      }
+    });
+    $('#link').click(function (evt){
+      $('input#name').removeAttr('value');
+      $("input#name").focus();
+      evt.preventDefault();
+    });
+$('a[href*="#"]')
+  // Remove links that don't actually link to anything
+  .not('[href="#"]')
+  .not('[href="#0"]')
+  .click(function(event) {
+    // On-page links
+    if (
+      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
+      && 
+      location.hostname == this.hostname
+    ) {
+      // Figure out element to scroll to
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      // Does a scroll target exist?
+      if (target.length) {
+        // Only prevent default if animation is actually gonna happen
+        event.preventDefault();
+        $('html, body').animate({
+          scrollTop: target.offset().top - 200
+        }, 1000, function() {
+          // Callback after animation
+          // Must change focus!
+          var $target = $(target);
+          $target.focus();
+          if ($target.is(":focus")) { // Checking if the target was focused
+            return false;
+          } else {
+            $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+            $target.focus(); // Set focus again
+          };
+        });
+      }
+    }
+  });
+  
+var hamburger="hamb";
+
+var slideNavName="slideDown";
+
+var rectangleName="rect";
+
+var showRect= "showRect";
+var topRectX= "topRectX";
+var hideRectX= "hideRectX";
+var bottomRectX= "bottomRectX";
+
+
+$("#"+hamburger).click(function(event)
+{
+  if($("#"+slideNavName).attr('class')=="hidden")
+  {
+    $("#"+rectangleName+"1").toggleClass(showRect+" "+topRectX);
+    $("#"+rectangleName+"2").toggleClass(showRect+" "+hideRectX);
+    $("#"+rectangleName+"3").toggleClass(showRect+" "+bottomRectX);
+    
+    $("#"+slideNavName).toggleClass('hidden revealed');
+  }
+  
+  else if($("#"+slideNavName).attr('class')=="revealed")
+  {
+    $("#"+rectangleName+"1").toggleClass(showRect+" "+topRectX);
+    $("#"+rectangleName+"2").toggleClass(showRect+" "+hideRectX);
+    $("#"+rectangleName+"3").toggleClass(showRect+" "+bottomRectX);
+    
+    $("#"+slideNavName).toggleClass('revealed hidden');
+  }
+});
+
+$(window).scroll(function(event)
+{
+  if($("#"+slideNavName).attr('class')=="revealed")
+  {
+    $("#"+rectangleName+"1").toggleClass(showRect+" "+topRectX);
+    $("#"+rectangleName+"2").toggleClass(showRect+" "+hideRectX);
+    $("#"+rectangleName+"3").toggleClass(showRect+" "+bottomRectX);
+    
+    $("#"+slideNavName).toggleClass('revealed hidden');
+  }
+});
+
+</script>
