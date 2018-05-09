@@ -3,7 +3,7 @@ title: Software
 date: 2018-04-29T19:28:22+00:00
 author: genesys
 layout: page
-image: /_assets/hack-capital-568971-unsplash-700x450.jpg
+image: /images/hack-capital-568971-unsplash-700x450.jpg
 ---
 
 <dl class="accordion">

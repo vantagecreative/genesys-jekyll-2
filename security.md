@@ -3,7 +3,7 @@ title: Security
 date: 2018-04-29T19:21:01+00:00
 author: genesys
 layout: page
-image: /_assets/blake-connally-373084-unsplash-700x450.jpg
+image: /images/blake-connally-373084-unsplash-700x450.jpg
 ---
 
 <dl class="accordion">

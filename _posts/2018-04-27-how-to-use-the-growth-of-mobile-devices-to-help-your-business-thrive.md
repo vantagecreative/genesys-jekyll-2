@@ -5,7 +5,7 @@ author: genesys
 layout: post
 category: [How To]
 permalink: /2018/04/27/how-to-use-the-growth-of-mobile-devices-to-help-your-business-thrive/
-image: /_assets/coding-computer-data-577585-700x450.jpg
+image: /images/coding-computer-data-577585-700x450.jpg
 ---
 <p>
 Did you know that 95% of Americans own a mobile device? In the Washington D.C. area, we’re willing to bet that percentage is even larger. As mobile phone usage continues to spread like wildfire, it’s no wonder so many companies are utilizing mobile tech to grow their businesses. In fact, with such prolific technology at their disposal, one might ask—why _wouldn’t _companies use mobile technology to their advantage? The answer to this question — for many companies — is that they simply don&#8217;t know where to start. If your business falls under that category, don’t worry! We’ve got you covered.

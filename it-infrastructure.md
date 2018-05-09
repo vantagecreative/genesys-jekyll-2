@@ -3,7 +3,7 @@ title: IT Infrastructure
 date: 2018-04-29T19:28:04+00:00
 author: genesys
 layout: page
-image: /_assets/Depositphotos_127381466_s-2015-1.jpg
+image: /images/Depositphotos_127381466_s-2015-1.jpg
 ---
 
             <dl class="accordion">

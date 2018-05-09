@@ -2,8 +2,8 @@
 title: Genesys Impact
 email: contact-us@genesysimpact.com
 description: Creative engineers with a diverse background in design, development, mobile, and network technologies. Based in Washington DC
-baseurl: "/genesys-jekyll-2" # the subpath of your site, e.g. /blog
-url: http://localhost:4000
+baseurl: ""  
+url: ""
 name: Genesys Impact
 description: Experience the Impact
 # Where things are
@@ -14,7 +14,7 @@ plugins_dir:     _plugins
 layouts_dir:     _layouts
 data_dir:        _data
 includes_dir:    _includes
-assets_dir:      _assets
+assets_dir:      images
 collections:
   posts:
     output:   true

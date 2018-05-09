@@ -5,7 +5,7 @@ author: genesys
 layout: post
 category: [FAQ]
 permalink: /2018/04/27/6-questions-to-ask-when-deciding-to-make-your-business-cloud-based/
-image: /_assets/adult-chair-computer-462367-700x450.jpg
+image: /images/adult-chair-computer-462367-700x450.jpg
 ---
 <p>
 <span style="font-weight: 400;">If you’re reading this, congratulations! You’ve started to get the ball rolling toward moving your business to the Cloud. </span><span style="font-weight: 400;">But before diving headlong, educating yourself on Cloud capabilities and deciding on the things that matter most for your business is imperative.</span>

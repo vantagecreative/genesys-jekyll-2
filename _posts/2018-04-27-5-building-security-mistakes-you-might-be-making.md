@@ -5,7 +5,7 @@ author: genesys
 layout: post
 category: [Tips]
 permalink: /2018/04/27/5-building-security-mistakes-you-might-be-making/
-image: /_assets/Depositphotos_127378168_xl-2015-700x450.jpg
+image: /images/Depositphotos_127378168_xl-2015-700x450.jpg
 ---
 <p>
 <span style="font-weight: 400;">Is your building as secure as it could be? Here at Genesys Impact, we want to make sure you’re not making any of these security mistakes.</span>

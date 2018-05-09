@@ -4,7 +4,7 @@ date: 2018-04-10T02:28:17+00:00
 author: genesys
 excerpt: We view every project as an opportunity to create a solution that is innovative and great. We recognize how important success is to you. So, we guide you, build for you, and we don’t consider a project finished unless we both view it as a win.
 layout: portfolio
-image: /_assets/coding-computer-data-577585-700x450.jpg
+image: /images/coding-computer-data-577585-700x450.jpg
 ---
 
 <h3>What Our Clients Are Saying</h3>

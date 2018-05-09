@@ -3,7 +3,7 @@ title: Contact
 date: 2018-04-10T02:28:34+00:00
 author: genesys
 layout: contact
-image: /_assets/apple-blogging-business-36990-700x450.jpg
+image: /images/apple-blogging-business-36990-700x450.jpg
 ---
 
 		<div id="cta">

@@ -3,7 +3,7 @@ title: Internet of Things
 date: 2018-04-29T19:28:37+00:00
 author: genesys
 layout: page
-image: /_assets/stefan-stefancik-257625-unsplash-700x450.jpg
+image: /images/stefan-stefancik-257625-unsplash-700x450.jpg
 ---
 
 <dl class="accordion">

@@ -5,7 +5,7 @@ author: genesys
 layout: post
 category: [Tips]
 permalink: /2018/04/27/5-tech-tools-every-growing-business-should-invest-in/
-image: /_assets/hack-capital-568971-unsplash-700x450.jpg
+image: /images/hack-capital-568971-unsplash-700x450.jpg
 ---
 <p>
 <span style="font-weight: 400;">Where does your customer spend their time? Whether you’re targeting teens or soccer moms, it’s safe to say there’s a very good change your target market spends lots of time online. So, how can you play this to you and your business’s advantage?</span>

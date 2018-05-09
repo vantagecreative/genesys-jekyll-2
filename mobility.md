@@ -3,7 +3,7 @@ title: Mobility
 date: 2018-04-29T19:28:51+00:00
 author: genesys
 layout: page
-image: /_assets/apps-business-cellphone-892769-700x450.jpg
+image: /images/apps-business-cellphone-892769-700x450.jpg
 ---
 
 <dl id="accordion" class="accordion">
