@@ -13,10 +13,10 @@ cd ~/genesys-jekyll-2
 # Build pages
 jekyll build
 
-#Serve Pages
+# Serve Pages
 jekyll serve
 
-#Load Site In Browser
+# Load Site In Browser
 Example: http://localhost:4000/genesys-jekyll-2/index.html
 
 ------
