@@ -1,0 +1,2053 @@
+@font-face {
+  font-family: "Flaticon";
+  src: url("/_assets/Flaticon.eot");
+  src: url("/_assets/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("/_assets/Flaticon.woff") format("woff"),
+       url("/_assets/Flaticon.ttf") format("truetype"),
+       url("/_assets/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("/_assets/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+font-style: normal;
+}
+
+.flaticon-sort-arrow:before { content: "\f100"; }
+.flaticon-down:before { content: "\f101"; }
+.flaticon-building:before { content: "\f102"; }
+.flaticon-map:before { content: "\f103"; }
+.flaticon-company:before { content: "\f104"; }
+.flaticon-link:before { content: "\f105"; }
+.flaticon-facebook:before { content: "\f106"; }
+.flaticon-twitter:before { content: "\f107"; }
+.flaticon-github:before { content: "\f108"; }
+.flaticon-google:before { content: "\f109"; }
+.flaticon-chat:before { content: "\f10a"; }
+.flaticon-telephone:before { content: "\f10b"; }
+.flaticon-email:before { content: "\f10c"; }
+.flaticon-magnifier:before { content: "\f10d"; }
+.flaticon-acceptance:before { content: "\f10e"; }
+.flaticon-user-outline:before { content: "\f10f"; }
+.flaticon-information-circular:before { content: "\f110"; }
+.flaticon-close-cross-circular:before { content: "\f111"; }
+.flaticon-add-circular:before { content: "\f112"; }
+.flaticon-down-circular:before { content: "\f113"; }
+.flaticon-arrows:before { content: "\f114"; }
+.flaticon-down-arrow:before { content: "\f115"; }
+.flaticon-right-arrow:before { content: "\f116"; }
+.flaticon-interface:before { content: "\f117"; }
+/* =============================================================================
+   Responsive Embedded Media
+   ========================================================================== */
+
+img,
+object,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+
+/* =============================================================================
+  Required WordPress Styles
+  * @since 1.0.6
+  * Generated Core Classes
+  * Each Theme should have these or similar styles in its style.css file
+  * in order to display images and captions properly.
+  * http://codex.wordpress.org/CSS#WordPress_Generated_Classes
+  ========================================================================== */
+figure {margin:inherit;}
+
+.sticky {}
+
+.alignnone {
+  margin: 5px 20px 20px 0;
+}
+
+.aligncenter, div.aligncenter {
+  display:block;
+  margin: 5px auto 5px auto;
+}
+
+.alignright {
+  float:right;
+  margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+  float:left;
+  margin: 5px 20px 20px 0;
+}
+
+.aligncenter {
+  clear: both;
+  display: block;
+  margin: 5px auto 5px auto;
+}
+
+.alignright {
+  float:right;
+  margin: 5px 0 20px 20px;
+}
+
+.alignnone {
+  clear: both;
+  margin: 5px 20px 20px 0;
+}
+
+.alignleft {
+  float:left;
+  margin: 5px 20px 20px 0;
+}
+
+.aligncenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wp-caption {
+  background: #fff;
+  border: 1px solid #f0f0f0;
+  max-width: 96%; /* Image does not overflow the content area */
+  padding: 5px 3px 10px;
+  text-align: center;
+}
+
+.wp-caption.alignnone {
+  margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+  margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+  margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+  border: 0 none;
+  height: auto;
+  margin:0;
+  max-width: 98.5%;
+  padding:0;
+  width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+  font-size:11px;
+  line-height:17px;
+  margin:0;
+  padding:0 4px 5px;
+}
+
+.gallery-caption {}
+
+/*
+* stops multiple categories from breaking the layout
+*/
+.entry-tags-list li,
+.entry-categories-list li {
+  display: inline-block;
+}
+
+/* by post author styling */
+.bypostauthor {}
+
+
+/* =============================================================================
+   WordPress Generated - Extra Styling Classes for Authors
+   ========================================================================== */
+
+/* Fluid Images For Wordpress */
+img[class*="align"],
+img[class*="wp-image-"] {
+  height: auto; /* Make sure images with WordPress-added height and width attributes are scaled correctly */
+}
+
+.wp-caption,
+.wp-caption img {
+  max-width: 100%;
+}
+
+img.size-full {
+  max-width: 100%;
+  width: auto; /* Prevent stretching of full-size images with height and width attributes in IE8 */
+}
+
+/* WP Breadcrumb Styles */
+.cat-item {}
+.cat-item.current-cat {}
+
+.cat-item a:hover {}
+.cat-item.current-cat a:hover {}
+
+.cat-item a {}
+.cat-item.current-cat a {}
+
+/* WP Smiley */
+.entry-content img.wp-smiley {
+  border: none;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 0;
+}
+
+/* WP widget styling */
+.widget {}
+
+/* WP Footer Search Widget Input */
+#s {
+  width: 100%;
+}
+
+/* WP Post Thumbnails */
+.wp-post-image {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.attachment-thumbnail {}
+.attachment-medium {}
+.attachment-large {}
+.attachment-full {}
+
+/* WP 404 Errors */
+.error404 {}
+
+/* WP Page Content */
+.more-link {}
+.posttitle {}
+
+
+/* =============================================================================
+   WordPress Comments
+   ========================================================================== */
+/*
+* WP COMMENTS FORM
+* comment form container
+* keep this consistent for comment form
+* everytime a user clicks reply to a thread
+* the comment form that appears contains these very
+* styles defined below
+*/
+
+#respond {}
+
+/* comments list reset */
+.commentlist,
+.commentlist ul,
+.commentlist .children {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* comment form title */
+#reply-title {}
+
+/* comment form ID generated by WP */
+#commentform {}
+
+/* moderation response text class provided via comments.php line#48 */
+/* no user comments styling class provided via comments.php line#69 */
+.moderating,
+.nocomments {
+  font-weight: lighter;
+}
+
+/* comment form labels */
+label[for="author"] {}
+label[for="email"] {}
+label[for="commment"] {}
+
+/* comment form inputs  */
+#commentform input,
+#commentform textarea {
+  display: block;
+}
+#commentform textarea {
+  width: 100%;
+}
+
+/* comment form allow tags */
+.form-allowed-tags {}
+
+/* comments pagination */
+.comment-pagination {}
+.prev-comments-link {}
+.nxt-comments-link {}
+
+/* avatars */
+.avatar {
+  display: block
+}
+
+/* User Comments */
+.comment-list {}
+.comment-meta {}
+.comment-meta.says {}
+.comment-vcard {}
+.comment-edit-link {}
+.comment-body {}
+.comment-text {}
+.reply {}
+.comment-reply-link {}
+
+/* Comment Respond Form */
+.comment-respond {}
+
+
+
+
+/* =============================================================================
+   WP-Flex Custom Styles
+   ========================================================================== */
+/**
+* WP-Flex Styling Modules
+*
+* Use these custom Classes as helpers for your styling needs and based on
+* the classes written by this theme. These are not provided by WordPress
+*/
+
+/* WP-Flex BLOG NAME Module */
+.blogname {}
+
+/* WP-Flex TAGLINE Module */
+.tagline {}
+
+/* WP-Flex NAVIGATION Module */
+.menu {}
+
+/* WP-Flex PAGE TITLE Module */
+.page-title{}
+
+/* WP-Flex ENTRY TITLE Module */
+.entry-title {}
+
+/* WP-Flex ENTRY TITLE META Module */
+.meta {}
+
+/* WP-Flex ENTRY FOOTER META Module */
+.entry-footer {}
+.comments-count {}
+.comments-count-number {}
+.entry-taxonomies {}
+.entry-tags-list {}
+.entry-tags {}
+.entry-categories-list {}
+.entry-categories {}
+
+/* WP-Flex ENTRY PAGINATION Module */
+.pagination {}
+
+/* WP-Flex SINGLE ENTRY PAGINATION Module  */
+.pagination.single {}
+
+/* WP-Flex SIDEBAR Module */
+#sidebar {}
+
+
+/* =============================================================================
+   Demo Layout Styles * DO NOT USE *
+   ========================================================================== */
+
+body {
+  background: #5a2b77;
+  margin: 0 auto;
+  padding: 0em;
+  font-size:10px;
+}
+
+.page {background:#221933;}
+.page .banner img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    opacity: 0.15;
+    filter: blur(5px);
+    width:125%;
+    height:125%;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+  opacity:0.9;
+}
+
+dl dt {
+    font-size: 4.5em;
+    color: #5a2b77;
+    border-bottom: 1px dotted #5a2b77;
+}
+dl dd {
+  margin:1.6em 0 0 0;
+  font-size:1em;
+  line-height: 1.414;
+}
+
+dl dd ul li, dl dd ol li {
+    font-size: 1.8em;
+    margin-bottom: 0.6em;
+    line-height: 1.414;
+}
+.nav-list {
+  margin: 0;
+  padding: 0;
+}
+
+/*.post {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    text-align: left;*/
+/*    align-items: flex-start;*/
+/*    -webkit-justify-content: center;*/
+/*    justify-content: center;*/
+/*    flex-wrap: wrap;*/
+/*    position: relative;*/
+/*    padding: 1em;*/
+/*}*/
+
+.post figure {
+    width: 100%;
+}
+
+.post h4 {
+    font-size: 1.8em;
+    line-height: 1.414;
+    font-family: IBM Plex Sans;
+    font-weight: 400;
+}
+
+.post span {
+    font-family: IBM Plex serif;
+    font-weight: 400;
+    font-size: 1.3em;
+    color:#7d708a;
+}
+
+.post span em {font-style:normal;}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Image replacement
+ */
+.ir {
+  background-color: transparent;
+  border: 0;
+  overflow: hidden;
+  /* IE 6/7 fallback */
+  *text-indent: -9999px;
+}
+
+.ir:before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 150%;
+}
+
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+.hidden {
+  display: none !important;
+  visibility: hidden;
+}
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+
+.invisible {
+  visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.clearfix {
+  *zoom: 1;
+}
+
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+
+@media print {
+  * {
+    background: transparent !important;
+    color: #000 !important; /* Black prints faster: h5bp.com/s */
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  a,
+  a:visited {
+    text-decoration: none;
+  }
+
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+  /*
+   * Don't show links for images, or javascript/internal links
+   */
+
+  .ir a:after,
+  a[href^="javascript:"]:after,
+  a[href^="#"]:after {
+    content: "";
+  }
+
+  pre,
+  blockquote {
+    border-left: 3px solid #572a7b;
+    padding-left: 2.3em;
+    margin: auto 0 auto auto;
+    page-break-inside: avoid;
+  }
+
+  thead {
+    display: table-header-group; /* h5bp.com/t */
+  }
+
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+  img {
+    max-width: 100% !important;
+  }
+
+  @page {
+    margin: 0.5cm;
+  }
+
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}
+
+blockquote {
+    border-left: 3px solid #572a7b;
+    padding-left: 2.3em;
+    margin: auto 0 auto auto;
+    page-break-inside: avoid;
+  }
+  
+#mobile-menu {display:none;}
+
+#hamb {
+    background: none;
+    width: 23px;
+    height: 100px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+#hamb:focus {outline:none;}
+
+#hamb:hover .rect {background-color: #fcfc00;}
+
+#rect1, #rect2, #rect3
+{
+  /*THIS IS JUST STYLING*/
+  position: relative; float: left;
+  width: 100%;
+  height: 3px;
+  background-color: #fff;
+  
+  /*THIS IS WHAT MAKES YOUR HAMBURGER RECTANGLES SLIDE INTO AN 'X'*/
+  -webkit-transition: all 0.3s ease-out;
+     -moz-transition: all 0.3s ease-out;
+       -o-transition: all 0.3s ease-out;
+          transition: all 0.3s ease-out;
+}
+
+#slideDown {
+    z-index: 999;
+    position: fixed;
+    float: none;
+    color: #fff;
+    overflow: hidden;
+    width: 100%;
+    background:#5a2b77;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    border-top: 0px;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+#slideDown #top-menu {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    justify-content: center;
+    height: 100%;
+    font-weight: 500;
+    list-style: none;
+    font-family: IBM Plex Sans Condensed;
+    font-size: 1.8em;
+    line-height: 2.5;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#slideDown ul li ul {list-style: none; padding: 0; margin: 0;}
+
+#slideDown li {}
+
+.hidden
+{
+  /*THIS IS WHAT CHANGES TO HIDE YOUR MENU. THIS NEEDS TO BE '0'*/
+  max-height: 0px;
+}
+
+.revealed
+{
+  /*AN APPROXIMATION OF YOUR NAV'S EXTENDED HEIGHT. IF THIS IS TOO HIGH, IT WILL LAG BEFORE CLOSING*/
+  max-height: 100vh;
+}
+
+.showRect /*YOU CAN NAME ME. FOLLOW INSTRUCTIONS IN THE JS*/
+{
+  /*DEFAULT STYLING FOR YOUR LITTLE HAMBURGER RECTANGLES*/
+  display: block;
+  margin: 2px 0 2px 0;
+}
+
+.hideRectX /*YOU CAN NAME ME. FOLLOW INSTRUCTIONS IN THE JS*/
+{
+  /*THE STYLING FOR YOUR MIDDLE RECTANGLE, WHICH DISSAPEARS*/
+  display: none;
+}
+
+.topRectX /*YOU CAN NAME ME. FOLLOW INSTRUCTIONS IN THE JS*/
+{
+  /*THE STYLING FOR YOUR TOP RECTANGLE*/
+  margin: 5px 0 5px 0;
+    
+  /*THIS ROTATES YOUR TOP RECTANGLE INTO ITS 'X' POSITION*/
+   -webkit-transform: rotate(45deg);
+      -moz-transform: rotate(45deg);
+           transform: rotate(45deg);
+}
+
+.bottomRectX /*YOU CAN NAME ME. FOLLOW INSTRUCTIONS IN THE JS*/
+{
+  /*THE STYLING FOR YOUR BOTTOM RECTANGLE*/
+  margin: -8px 0 4px 0;
+    
+  /*THIS ROTATES YOUR BOTTOM RECTANGLE INTO ITS 'X' POSITION*/
+  -webkit-transform: rotate(-45deg);
+     -moz-transform: rotate(-45deg);
+           transform: rotate(-45deg);
+}
+
+header {
+    z-index:9999999;
+    background: rgba(0,0,0,0.20);
+    width: 100%;
+    box-sizing: border-box;
+    position: fixed;
+    z-index:1000;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    align-self: center;
+    align-items: center;
+    align-content: center;
+}
+
+.affix {
+    background: white;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.05);
+    transition: all 0.25s ease;
+}
+
+.blogname {
+    display: flex;
+    align-items: center;
+    padding:16px;
+}
+
+.logo {
+    width: 23vw;
+}
+
+.affix-logo {width:23vw; display:none;}
+
+.affix ul li {background:white;}
+.affix ul a {color:#1d1a23;}
+.affix ul li:last-child a {color:white;}
+.affix ul li:last-child {background:#1d1a23;}
+.affix .affix-logo {display:block;}
+.affix .logo {display:none;}
+
+sup {
+    top: -0.5em;
+    font-size: 66%;
+}
+
+header ul .phone {
+    font-size: 1.3em;
+    font-weight: 500;
+    color: #8f819b;
+}
+
+header ul li:first-child:hover {background: rgba(0, 0, 0, 0.1)}
+.affix ul li:first-child:hover, .affix ul li:first-child:hover a {background: rgba(0, 0, 0, 0); color:inherit;}
+
+.affix ul .phone {color:#7d708a;}
+
+header ul #search-li {
+    font-size: 1.8em;
+    font-weight: 500;
+    color: #8f819b;
+}
+
+header ul #search-li:hover {background: rgba(0, 0, 0, 0.1)}
+header ul #search-li:hover span {color:#b4a8bd;}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    -webkit-justify-content: space-evenly;
+    justify-content: space-evenly;
+    align-items: center;
+    margin:0;
+    padding:0px;
+}
+
+header ul li {
+    list-style: none;
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.1);
+    height: 100px;
+    font-size:1.6em;
+    font-family:IBM Plex Sans;
+    position: relative;
+}
+
+header ul li .flaticon-down {font-size:0.5em; padding-bottom:2px;}
+
+header ul li:last-child {
+    list-style: none;
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.3);
+    height: 100px;
+    font-size: 1.8em;
+    font-family: IBM Plex Sans;
+}
+header ul li ul {display:none;}
+header ul li:hover ul {display:flex;}
+header ul li:hover, .affix ul li:hover a {background:#592b77; color:white;}
+.affix ul li:hover ul li a {background:#ffffff; color:#1d1a23;}
+.affix ul li ul li:last-child {background:#ffffff; color:white;}
+header ul li ul li:hover, .affix ul li ul li:hover {background: #ffffff; color:#592b77;}
+
+header ul li .flaticon-magnifier {font-size: 1.3em; color: #7d708a;}
+.affix ul li .flaticon-magnifier {
+    color: #7d708a;
+}
+.affix ul li:hover .flaticon-magnifier {color: #7d708a;}
+ul.sub-menu {
+    position: absolute;
+    background: white;
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    justify-content: normal;
+    align-items: center;
+    top: 100px;
+    padding:11px;
+    left: 0;
+    text-align: left;
+}
+
+ul.sub-menu:before {
+    background: white;
+    height: 13px;
+    width: 13px;
+    position: absolute;
+    content: "";
+    transform: rotate(45deg);
+    top: -5px;
+    left: 38px;
+}
+
+.sub-menu li {
+    width: 165px;
+    flex-direction: column;
+    height: auto;
+    background: none;
+    font-size: 0.8em;
+    line-height: 1.828;
+    text-transform: uppercase;
+    text-align: left;
+    align-items: flex-start;
+}
+
+.sub-menu li:last-child {
+    background: inherit;
+    font-size: 0.8em;
+    height: auto;
+    padding: 0;
+    text-align: left;
+    align-items: flex-start;
+}
+
+.sub-menu li a {color:#1d1a22; font-weight:500;}
+
+input {
+	outline: none;
+}
+input[type=search] {
+	-webkit-appearance: textfield;
+	-webkit-box-sizing: content-box;
+	font-family: inherit;
+	font-size: 0.7em;
+}
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button {
+	display: none; 
+}
+
+select {
+    width: 100%;
+    background: none;
+    border-radius: 0px;
+    border: 0px;
+    border-bottom: 2px solid white;
+    color: white;
+    font-size: 1.6em;
+    padding: 11px 20px 32px 20px;
+    -webkit-appearance:none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+input[type=search] {
+	width: 16px;
+	position:relative;
+	margin-left:-16px;
+	color: transparent;
+	cursor: pointer;
+		-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	transition: all .5s;
+	background:none;
+	border:0px;
+}
+
+input[type=search]:focus {
+	width: 130px;
+	color: #ffffff;
+	cursor: auto;
+	margin-left:0px;
+	padding-left:11px;
+}
+
+input:-moz-placeholder {
+	color: transparent;
+}
+
+input::-webkit-input-placeholder {
+	color: transparent;
+}
+
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button {
+	display: none; 
+}
+
+h1 {font-size:6.4em; line-height:1.414; margin:0px; font-family:IBM Plex Sans;}
+h2 {font-size:4.5em; line-height:1.414; margin:0px; font-family:IBM Plex Sans;}
+h3 {font-size:3.2em; line-height:1.414; margin:0px; font-family:IBM Plex Sans;}
+h4 {font-size:2.3em; line-height:1.414; margin:0px; font-family:IBM Plex Sans;}
+h5 {font-size:1.8em; line-height:1.414; margin:0px; font-family:IBM Plex Sans;}
+h6 {font-size:1.6em; line-height:1.414; margin:0px; font-family:IBM Plex Sans;}
+p {font-size:1.6em; line-height:1.414; margin:0px 0px 16px; font-family:IBM Plex Sans;}
+
+.flex-row {
+    flex-direction: row;
+    -webkit-justify-content: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 75vw;
+    margin: 0 auto;
+}
+
+.fullscreen-bg__video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    min-width: 100%;
+    height: auto;
+    min-height: 100%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: -1;
+    object-fit: cover;
+}
+
+.banner {
+    -webkit-justify-content: center;
+    justify-content: center;
+    align-items: center;
+    height: 30vw;
+    padding: 5vw 0 0;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    width:50%;
+    width: -moz-min-content;
+    width: -webkit-min-content;
+    width: -o-min-content;
+    width: -ms-min-content;
+    width: min-content;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about .banner {
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    padding: inherit;
+    display: flex;
+    color: white;
+    flex-direction: row;
+    width: inherit;
+    margin: inherit;
+    text-align: center;
+}
+
+.page .banner {
+    -webkit-justify-content: center;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding: inherit;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    width: min-content;
+    margin: inherit;
+    text-align: center;
+}
+
+.post .banner {
+    -webkit-justify-content: center;
+    justify-content: center;
+    align-items: center;
+    height: 20vw;
+    padding:0;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    width:50%;
+    width: -moz-min-content;
+    width: -webkit-min-content;
+    width: -o-min-content;
+    width: -ms-min-content;
+    width: min-content;
+    margin: 0 auto;
+    text-align: center;
+}
+.home .banner {
+    display: flex;
+    flex-direction: column;
+    -webkit-justify-content: flex-end;
+    justify-content: flex-end;
+    align-items: flex-start;
+    height:100vh;
+    width:100%;
+    background: rgba(90, 43, 119, 0.25);
+    padding:0px;
+    text-align:left;
+}
+
+.page .banner {height: 30vw;}
+
+.about .banner {
+    -webkit-justify-content: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    height:45vw;
+    padding:9vw 4.5vw 4.5vw;
+    box-sizing:border-box;
+}
+
+.portfolio .banner {height: 45vw;}
+
+.about .services {width:auto;}
+
+.about .banner h1 {padding: 0 26vw 0 0;}
+
+.about .banner p {font-size: 2.3em;}
+
+.about .banner .excerpt {
+    text-align: left;
+    width:50%;
+}
+
+.page .entry-content {max-width:767px; margin:0 auto;}
+.portfolio .entry-content, .landing .entry-content {max-width:1170px; margin:0 auto;}
+.blog .entry-content {max-width:100%; margin:0 auto;}
+
+.single-post .entry-content {max-width:767px; margin:0 auto;}
+
+
+.banner .callout {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    -webkit-justify-content: center;
+    justify-content: center;
+    width:100%;
+    width: -moz-min-content;
+    width: -webkit-min-content;
+    width: -o-min-content;
+    width: -ms-min-content;
+    width:min-content;
+    box-sizing: border-box;
+    padding:0 0 0 4.5vw;
+}
+
+.banner h1 {
+    font-size: 6.4vw;
+    font-family: IBM Plex Sans Condensed;
+    font-weight: 500;
+    font-style: normal;
+    width: 100%;
+    width: max-content;
+    margin-top:56px;
+    padding:0 16vw;
+}
+
+.post .banner h1 {margin-top:0px;}
+
+.home .banner h1 {
+    font-size: 9vw;
+    font-family: IBM Plex Sans Condensed;
+    font-weight: 500;
+    font-style: italic;
+    color: white;
+    margin: 0px;
+    padding: 4.5vw 1.6vw 0 0;
+    line-height: 1;
+}
+
+.banner p {
+    font-size: 2.3em;
+    font-family: IBM Plex Sans;
+    font-weight: 200;
+}
+
+.home .banner h1 sup {font-weight:200;}
+
+.home .banner h1 strong {
+  font-weight:700;
+}
+.home .banner h2 {
+    font-size: 2.3em;
+    font-family: IBM Plex Sans;
+    line-height: 1.414;
+    font-weight: 300;
+    color: white;
+    padding:0;
+    margin:0.7em 0 0 0;
+    width:100%;
+    width:-webkit-fill-available;
+}
+.banner-cta {
+    width: 100%;
+    background: rgba(89, 43, 119, 0.6);
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    align-items: center;
+    padding: 1.6em 4.5vw;
+}
+
+.banner-cta h3 {
+    font-size: 3.2vw;
+    font-family: IBM Plex sans;
+    font-style: italic;
+    font-weight: 500;
+    color: #ffffff;
+    padding-right: 1.6em;
+    border-right: 3px dotted rgba(0,0,0,0.5);
+    margin: 0.7em;
+}
+
+.banner-cta button {
+    background: #5a2b77;
+    border-radius: 300px;
+    color: #ffffff;
+    padding: 1.6em 2.3em;
+    font-size: 1.8em;
+    border: 0px;
+    font-family: IBM Plex Sans;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 230px;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.6s;
+  transition-duration: 0.6s;
+}
+
+.banner-cta button span {    padding-left: 16px;}
+
+.banner-cta button:before, #cta-form button:before {
+  content: '';
+  position: absolute;
+  border-radius:300px;
+  top: 4px;
+  left: 4px;
+  right: 4px;
+  bottom: 4px;
+  opacity: 1;
+  -webkit-transition-duration: 0.6s;
+  transition-duration: 0.6s;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+}
+.banner-cta button:hover:before, .banner-cta button:focus:before, .banner-cta button:active:before {
+  opacity: 1;
+  border: white solid 4px;
+}
+
+.home #content {
+    background:inherit;
+    padding:inherit;
+    line-height: 1.414;
+}
+
+#content {
+    background: white;
+    font-size: 10px;
+    font-family: IBM Plex Sans;
+    padding: 4.5vw;
+    font-weight: 300;
+    line-height: 1.414;
+    /*display:flex;*/
+}
+
+.landing #cta-form, .single-service #cta-form {
+    width: auto;
+    margin-right: 6.4vw;
+}
+
+.landing #content, .single-service #content {background:none; padding: 13vw 9vw;}
+
+.landing .entry-content, .single-service .entry-content {
+    display: flex;
+    flex-direction: row;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    color: white;
+}
+
+.landing .entry-content article, .single-service .entry-content article {width:100%;}
+
+.landing .entry-content ul, .single-service .entry-content ul, .single-service .entry-content ol {
+    font-size: 1.8em;
+    line-height: 1.414;
+}
+
+.landing .entry-content article h1, .single-service .entry-content article h1 {
+    font-family: IBM Plex serif;
+    font-weight: 500;
+    font-size: 4.5em;
+    line-height: 1.414;
+}
+
+ #cta-form button:hover:before,  #cta-form button:focus:before, #cta-form button:active:before {
+  opacity: 1;
+}
+
+.flex-content {
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display:flex;
+  -webkit-justify-content: center;
+  justify-content:center;
+  flex-direction:column;
+  width: 50%;
+  width: -moz-min-content;
+  width: -webkit-min-content;
+  width: -o-min-content;
+  width: -ms-min-content;
+  width:min-content;
+}
+
+#trust {
+  background:#1d1a22;
+  padding:9em 4.5vw;
+  text-align:center;
+  width:100%;
+  box-sizing:border-box;
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display:flex;
+  -webkit-justify-content: center;
+  justify-content:center;
+}
+
+#trust h2 {
+    color:#90819b;
+    font-weight:500;
+    font-family: IBM Plex Sans;
+    line-height:1.414;
+    margin:0;
+    font-size:3.2em;
+    width: -moz-max-content;
+    width: -webkit-max-content;
+    width: -o-max-content;
+    width: -ms-max-content;
+    width:max-content;
+}
+#trust p {
+    color: #FFFFFF;
+    font-weight: 300;
+    font-family: IBM Plex Sans;
+    line-height: 1.636;
+    font-size: 2.3em;
+}
+#trust a {color:#90819b; font-size:1.8em; font-family: IBM Plex Sans; line-height:4.242; font-weight: 700}
+#work a {color:#5a2b77; font-size:1.8em; font-family: IBM Plex Sans; line-height:4.242; font-weight: 700}
+
+#logos {
+    background: #f6f6f6;
+    border-top: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
+    padding: 3.2vw 4.5vw;
+    display: flex;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#logos img {
+    object-fit: scale-down;
+    max-width: 15vw;
+    max-height:55px;
+}
+
+#services, #work {
+    background: #ffffff;
+    padding: 9em 4.5vw;
+    text-align: left;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+}
+#services .our-services {
+  width:100%;
+  width: -moz-min-content;
+  width: -webkit-min-content;
+  width: -o-min-content;
+  width: -ms-min-content;
+  width:min-content;
+}
+#services .our-services a {color:inherit;}
+#services h3, #work h3 {
+    font-family: IBM Plex Sans;
+    font-size: 4.5em;
+    font-weight: 600;
+    line-height: 1.414;
+    margin: 0;
+    width: -moz-max-content;
+    width: -webkit-max-content;
+    width: -o-max-content;
+    width: -ms-max-content;
+    width: max-content;
+    padding: 0 10vw 0 0;
+    color: #c5c2c2;
+}
+.about #work h3 {
+    font-size: 3.2em;
+    width: auto;
+    padding: auto;
+}
+#services p, #work p {
+    color: #42413d;
+    font-weight: 300;
+    font-family: IBM Plex Sans;
+    line-height: 1.414;
+    font-size: 2.3em;
+}
+#services h4 {
+    font-family: IBM Plex Sans;
+    font-size: 1.8em;
+    font-weight: 500;
+    line-height: 1.414;
+    margin: 0;
+    color: #42413d;
+}
+#services ul, .about .banner ul {list-style:none; list-style-position:outside; padding-left:16px;}
+
+#services ul li, .about .banner ul li {
+    color: #5a2b77;
+    font-weight: 400;
+    font-family: IBM Plex Sans;
+    line-height: 1.414;
+    font-size: 2.3em;
+}
+
+.about .banner ul li .flaticon-arrows {color:#5a2b77;}
+
+.about .banner ul li {text-align: left; color:white;}
+
+#services .main-gallery {width:60%;}
+#services .main-gallery p {font-size:1.6em;}
+.gallery-cell {
+  width: 50%;
+  /*height: 200px;*/
+  margin-right: 10px;
+  /*background: #8C8;*/
+  counter-increment: gallery-cell;
+  /*display:table-cell;*/
+  /*vertical-align:middle;*/
+  /*display: flex;*/
+  -webkit-justify-content: space-evenly;
+  justify-content: space-evenly;
+}
+
+.flickity-viewport {
+  transition: height 0.2s;
+}
+
+.gallery-cell.is-selected {
+  /*background: #ED2;*/
+}
+
+/* cell number */
+.gallery-cell:before {
+  display: block;
+  text-align: center;
+  /*content: counter(gallery-cell);*/
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
+
+.flickity-button {
+  background: #333;
+}
+.flickity-button:hover {
+  background: #F90;
+}
+.flickity-button-icon {
+    fill: white;
+}
+
+#services .gallery-inner h4 {font-size:3.2em;}
+.gallery-inner {
+    padding:0 10px;
+    min-height:300px;
+}
+.gallery-inner a {
+    color: #592c77;
+    text-decoration: none;
+    font-family: IBM Plex Sans;
+    font-weight: 400;
+    font-size: 1.8em;
+}
+.gallery-inner h4 a {font-size:inherit; color:inherit}
+#cta {
+    background: #5a2b77;
+    padding: 9em 3.2em;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    -webkit-justify-content: space-evenly;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.page #cta {
+    padding: 15em 3.2em;
+    display: flex;
+    z-index: 2;
+    width: 100%;
+    box-sizing: border-box;
+}
+.contact .flex-row {
+    max-width:inherit;
+    flex-wrap:inherit;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+}
+#cta h3 {
+    font-family: IBM Plex Sans;
+    font-size: 3.2em;
+    font-weight: 600;
+    line-height: 1.414;
+    margin: 0;
+    padding-right: 4.5vw;
+    color: #ffffff;
+    width: -moz-max-content;
+    width: -webkit-max-content;
+    width: -o-max-content;
+    width: -ms-max-content;
+    width: max-content;
+}
+#cta p {
+    color: #ffffff;
+    font-weight: 300;
+    font-family: IBM Plex Sans;
+    line-height: 1.414;
+    font-size: 2.3em;
+}
+#cta a {color: #d2c3de; font-size:1.8em; font-family: IBM Plex Sans; line-height:4.242; font-weight: 700}
+#call-out {
+  width:50%;
+  width: -moz-min-content;
+  width: -webkit-min-content;
+  width: -o-min-content;
+  width: -ms-min-content;
+  width:min-content;
+}
+#cta-form {
+    flex-direction: column;
+    display: flex;
+    -webkit-justify-content: space-evenly;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: stretch;
+    width: calc(30% + 200px);
+}
+#cta-form input[type=text], #cta-form input[type=email], #cta-form .inputText, #cta-form textarea {
+    border: 0px;
+    background: none;
+    border-bottom: 2px solid white;
+    border-radius:0px;
+    padding: 16px 0px;
+    color: white;
+    font-size: 1.6em;
+    font-family:IBM Plex Mono;
+    width:100%;
+    width: -webkit-fill-available;
+    -webkit-appearance:none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+#cta-form textarea {
+    border: 0px;
+    margin-top:16px;
+    background: none;
+    border-bottom: 2px solid white;
+    padding: 16px 0px;
+    color: white;
+    font-size: 1.6em;
+    font-family:IBM Plex Mono;
+    width:100%;
+    width: -webkit-fill-available;
+    resize:none;
+}
+
+#cta-form input[type="text"]:focus,
+#cta-form input[type="text"]:not(:focus):valid,
+#cta-form input[type="email"]:focus,
+#cta-form input[type="email"]:not(:focus):valid,
+#cta-form input[type="phone"]:focus,
+#cta-form input[type="phone"]:not(:focus):valid {border-color:#d2c3de;}
+
+:focus {
+  outline: -webkit-focus-ring-color auto 0px;
+}
+
+#cta-form ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #ffffff;
+}
+#cta-form ::-moz-placeholder { /* Firefox 19+ */
+  color: #ffffff;
+}
+#cta-form :-ms-input-placeholder { /* IE 10+ */
+  color: #ffffff;
+}
+#cta-form :-moz-placeholder { /* Firefox 18- */
+  color: #ffffff;
+}
+#cta-form input[type=submit] {
+    background: none;
+    border:3px solid white;
+    border-radius: 300px;
+    color: #ffffff;
+    margin-top:23px;
+    padding: 1.1em 1.6em;
+    font-size: 1.8em;
+    font-family: IBM Plex Sans;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#cta-form div {
+  position: relative;
+  padding-bottom: 23px;
+}
+
+.down-arrow {
+    right: 0px;
+    top: 12px;
+    position: absolute;
+    color: white;
+    font-size: 1.3em;
+}
+
+#cta-form #select-span .floating-label {
+    top: 9px;
+}
+
+#cta-form .floating-label {
+  color:white;
+  font-family:IBM Plex Sans;
+  font-size: 1.6em;
+  position: absolute;
+  pointer-events: none;
+  left: 0px;
+  top: 4px;
+  transition: 0.2s ease all;
+}
+
+#cta-form input:focus ~ .floating-label, #cta-form input:not(:focus):valid ~ .floating-label {
+  top: -7px;
+  color:#d2c3de;
+  font-size: 1.1em;
+  font-weight:600;
+}
+
+textarea:focus, textarea:focus-within {
+    border-color:#d2c3de!important;
+}
+
+#cta-form textarea:focus ~ .floating-label {
+  color:#d2c3de!important;
+}
+
+#cta-form button {
+    background: white;
+    border-radius: 300px;
+    color: #5a2b77;
+    padding: 1.1em 2.3em;
+    font-size: 1.8em;
+    border: 4px solid white;
+    font-family: IBM Plex Sans;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    flex-direction: row;
+    width:100%;
+    width:-webkit-fill-available;;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+#cta-form button span {padding-left:23px;}
+
+#work {
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display:flex;
+  -webkit-justify-content:space-between;
+  justify-content:space-between;
+  padding:0;
+}
+.our-work {
+    padding: 0 4.5vw;
+    width:50%;
+    width: -moz-min-content;
+    width: -webkit-min-content;
+    width: -o-min-content;
+    width: -ms-min-content;
+    width: min-content;
+}
+.about .our-work {width:50%;}
+.work-img {
+    background-image: url(/_assets/computer.jpg);
+    background-size:cover;
+    background-position:center center;
+    width: 50%;
+    height: 40vw;
+}
+.about-img {
+    background-image: url(/_assets/Depositphotos_127378168_xl-2015.jpg);
+    background-size:cover;
+    background-position:center center;
+    width: 50%;
+    height: 60vw;
+}
+.box {
+    background: #592b76;
+    color: white;
+    width: 38vmin;
+    height: 38vmin;
+    display: flex;
+    -webkit-justify-content:center;
+    justify-content: center;
+    align-items: center;
+    margin: 1vw;
+    padding: 1vw;
+    box-sizing: border-box;
+    flex-direction: column;
+    text-align: center;
+    overflow:hidden;
+}
+
+.box:hover {background:#c9c9c9;}
+.box:hover img {display:none;}
+
+.box .flaticon-down-circular {font-size:1.6vw;}
+
+.box img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.05;
+    filter: grayscale(1);
+}
+
+.client-feature {
+    position: absolute;
+    object-fit: cover;
+    width: 150%;
+    height: 150%;
+    z-index: 0;
+    opacity: 0.15;
+    filter: blur(10px);
+    z-index: -1;
+}
+
+.services {
+    width: 100%;
+    border-left: 2px dotted white;
+    margin-left: 3.2em;
+}
+
+.services h4 {
+    text-align: left;
+    padding: 0 0 0 16px;
+    color:#adabaf;
+}
+
+#about-list {
+    background: #141119;
+    display: flex;
+    flex-direction: row;
+    -webkit-justify-content: space-evenly;
+    justify-content: space-evenly;
+    padding: 3.2vw 4.5vw;
+    align-items: flex-start;
+}
+
+#about-list h4 {
+    color: #572a7b;
+    font-family: IBM Plex Mono;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: right;
+    border-right: 2px solid #572a7b;
+    padding: 0em 1.1em 4.5em 0;
+    font-size:1.8em;
+}
+#about-list ul {padding:0 16px; margin:0;}
+
+#about-list ul li {
+    font-size: 1.3em;
+    font-family: IBM Plex Sans;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    line-height: 1.414;
+    font-weight: 400;
+    color: #8e809d;
+}
+
+.blog .post-categories {
+    background: #572a7b;
+    color:white;
+    position: absolute;
+    top: 65%;
+    padding: 11px;
+    margin: 0;
+    line-height: 1;
+    list-style: none;
+    font-family: IBM Plex Sans;
+    font-weight: 500;
+    font-size: 1.3em;
+}
+
+footer {
+    background: #1d1a22;
+    padding: 9em 4.5vw;
+    display: flex;
+    -webkit-justify-content:space-between;
+    justify-content: space-between;
+    flex-direction: row;
+    align-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width:100%;
+    position:relative;
+    z-index:2;
+    box-sizing:border-box;
+}
+footer .logo {width:11vw;}
+
+footer ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size:1.6em;
+    line-height:1.818;
+}
+footer ul li {color:#8f819b; font-family:IBM Plex Sans; font-weight:500;}
+footer ul li a {color:#ffffff; font-weight:300;}
+footer ul .social a span {font-size: 1.6em;}
+#copyright {padding:1.8em 1.3em; text-align:center;}
+#copyright p {color:#8f819b; margin:0; padding:0; font-size:1.3em; font-family:IBM Plex Sans;}
+
+#copyright {background:#141119;}
+
+.post .entry-content a {color:#5e2b7b;}
+.post .entry-content .wp-post-image {
+    object-fit: cover;
+    width: 100%;
+    height: 300px;
+}
+
+dt a {color:inherit;}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+.banner-cta button:hover, .banner-cta button:hover:before, .banner-cta button:focus:before, .banner-cta button:active:before {
+   border:0px;
+}
+
+header .logo, .affix-logo {width: 45vw;}
+header ul li, header ul li:last-child {
+    padding: 0 11px;
+}
+header ul .menu-item {display:none;}
+tel {display:none;}
+#mobile-menu {display:block;}
+/*header ul li {*/
+/*    padding: 0 7px;*/
+/*    display: flex;*/
+/*    height: 60px;*/
+/*    font-size: 1.1em;*/
+/*}*/
+/*header ul .phone {font-size:1.1em;}*/
+/*ul.sub-menu {*/
+/*    top: 60px;*/
+/*}*/
+.banner {height:50vw;}
+.home .banner h1 {font-size: 14.14vw;}
+.banner-cta {background:rgba(90, 43, 119, 0.8);}
+.banner-cta h3 {display:none;}
+.banner-cta button {
+    background: none;
+    width: 100%;
+    font-size: 3.2em;
+    padding: 1.1em 0;
+    display: flex;
+    flex-direction: row;
+    -webkit-justify-content:space-around;
+    justify-content: space-around;
+}
+.about .banner {height:70vw;}
+.landing #content, .single-service #content {
+    padding: 18vw 9vw 13vw;
+}
+.post .banner {
+    padding: 10vw 0 0;
+}
+footer .logo {width:23vw;}
+#trust a, #work a {font-size:1.6em;}
+#cta {flex-direction:column;}
+#cta-form {width:100%;}
+#call-out {width:100%;}
+.box {height:35vw; width:35vw;}
+.our-work {width:100%; padding:9em 4.5vw;}
+.work-img {display:none;}
+.about-img {
+    height: 100vw;
+}
+}
+
+@media only screen and (max-width: 767px) {
+  .page .banner {
+    height: 80vw;
+    width:100%;
+}
+
+.portfolio .banner {height:140vw; width:100%; padding:4.5vw}
+dl dt {
+    font-size: 2.3em;
+    font-weight:400;
+    color: #5a2b77;
+    border-bottom: 1px dotted #5a2b77;
+}
+  #mobile-menu {display:block;}
+.logo {width: 66vw;}
+footer .logo {
+    width: 100%;
+}
+.affix-logo {width:66vw;}
+header ul li, header ul li:last-child {
+    padding: 0 11px;
+}
+header ul .menu-item {display:none;}
+tel {display:none;}
+.home .banner .callout {
+    width:100%;
+    padding:0 4.5vw;
+    text-align:center;
+}
+.fullscreen-bg__video {filter:blur(6px);}
+.banner {
+    height: 140vw;
+    width: 100%;
+    padding: 100px 4.5vw 4.5vw;
+    box-sizing: border-box;
+}
+.home .banner {height:150vw;}
+.home .banner h1 {font-size: 17vw; padding:0px; width:100%; margin-top: 32px;}
+.home .banner h2 {font-size: 2em; font-weight:400}
+h2 {
+    font-size: 3.2em;
+}
+h3 {
+    font-size: 2.3em;
+}
+#services h3, #work h3 {color: #592b77;}
+.banner-cta {
+  background:rgba(90, 43, 119, 0.8);
+  padding: 1.1em;
+}
+.banner-cta h3 {display:none;}
+.banner-cta button {
+    background: none;
+    width: 100%;
+    font-size: 3.2em;
+    padding: 0.7em 0;
+    display: flex;
+    flex-direction: row;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+}
+.banner-cta button:before {border:0px!important;}
+.banner h1 {
+    font-size: 12.8vw;
+    width: 100%;
+    padding: 0;
+    box-sizing: border-box;
+}
+#logos img {
+    max-width: 50%;
+    max-height: 45px;
+    padding: 10px;
+}
+#services .main-gallery {display:none;}
+.flex-content {width:100%;}
+#trust, #services {text-align:left;}
+#services .our-services {width:100%;}
+#trust h2, #services h2 {width:100%; text-align: left;}
+#trust p, #services p {text-align: left;}
+#trust a, #work a {font-size:1.6em;}
+#cta {flex-direction:column;}
+#cta a {display:none;
+}
+#call-out {width:100%;}
+#cta h3 {font-size:2.3em;}
+#cta-form {width:100%;}
+.our-work {width:100%; padding:9em 4.5vw;}
+.work-img {display:none;}
+.box {
+    width: 35vmin;
+    height: 35vmin;
+}
+.box h4 {
+    font-size: 1.6em;
+    line-height: 1.414;
+    margin: 0px;
+}
+.box .flaticon-down-circular {
+    font-size: 4.5vw;
+}
+
+.about .our-work {width: 100%;}
+.about .banner {height: 150vw; flex-direction: row;}
+.about .banner h1 {
+    padding: 0;
+}
+.about .banner .excerpt {
+    width: 100%;
+}
+.about .services {display:none;}
+
+#about-list {flex-direction:column; padding: 9vw 4.5vw;}
+#about-list h4 {
+    border-right: 0;
+    padding: 7px 0;
+    color:white;
+}
+.about-img {display:none;}
+.blog .post-categories {
+    top: 45%;
+    color:white;
+}
+
+.landing #cta-form, .single-service #cta-form {display:none;}
+
+.landing #content, .single-service #content {padding-top:120px;}
+footer {-webkit-justify-content: center; justify-content: center;}
+footer ul {display:none;}
+#contact-links {display:block;}
+}
+
+@media only screen and (min-width: 1200px) {
+  .about .banner {height: 30vw; padding-top:4.5vw;}
+  .page .banner {height: 25vw;}
+}
