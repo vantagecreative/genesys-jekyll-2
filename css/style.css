@@ -850,7 +850,11 @@ header ul li:hover, .affix ul li:hover a {background:#592b77; color:white;}
 .affix ul li ul li:last-child {background:#ffffff; color:white;}
 header ul li ul li:hover, .affix ul li ul li:hover {background: #ffffff; color:#592b77;}
 
-header ul li .flaticon-magnifier {font-size: 1.3em; color: #7d708a;}
+header ul li .flaticon-magnifier {
+    font-size: 1.3em;
+    color: #7d708a;
+    cursor: pointer;
+}
 .affix ul li .flaticon-magnifier {
     color: #7d708a;
 }
@@ -932,16 +936,18 @@ select {
 }
 
 input[type=search] {
-	width: 16px;
-	position:relative;
-	margin-left:-16px;
-	color: transparent;
-	cursor: pointer;
-		-webkit-transition: all .5s;
-	-moz-transition: all .5s;
-	transition: all .5s;
-	background:none;
-	border:0px;
+    width: 32px;
+    height: 32px;
+    position: relative;
+    margin-left: -32px;
+    color: transparent;
+    cursor: pointer;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+    background: none;
+    border: 0px;
+    z-index: 999999;
 }
 
 input[type=search]:focus {
