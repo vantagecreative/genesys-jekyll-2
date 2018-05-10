@@ -935,6 +935,8 @@ select {
     appearance: none;
 }
 
+header form {display:flex;}
+
 input[type=search] {
     width: 32px;
     height: 32px;
@@ -957,6 +959,8 @@ input[type=search]:focus {
 	margin-left:0px;
 	padding-left:11px;
 }
+
+.affix input[type=search]:focus {color:#1d1a22; font-size:0.7em; font-weight:500;}
 
 input:-moz-placeholder {
 	color: transparent;
