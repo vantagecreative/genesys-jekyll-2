@@ -158,35 +158,116 @@ var bottomRectX= "bottomRectX";
 
 $("#"+hamburger).click(function(event)
 {
-  if($("#"+slideNavName).attr('class')=="hidden")
-  {
-    $("#"+rectangleName+"1").toggleClass(showRect+" "+topRectX);
-    $("#"+rectangleName+"2").toggleClass(showRect+" "+hideRectX);
-    $("#"+rectangleName+"3").toggleClass(showRect+" "+bottomRectX);
-    
-    $("#"+slideNavName).toggleClass('hidden revealed');
-  }
-  
-  else if($("#"+slideNavName).attr('class')=="revealed")
-  {
-    $("#"+rectangleName+"1").toggleClass(showRect+" "+topRectX);
-    $("#"+rectangleName+"2").toggleClass(showRect+" "+hideRectX);
-    $("#"+rectangleName+"3").toggleClass(showRect+" "+bottomRectX);
-    
-    $("#"+slideNavName).toggleClass('revealed hidden');
-  }
+	if($("#"+slideNavName).attr('class')=="hidden")
+	{
+		$("#"+rectangleName+"1").toggleClass(showRect+" "+topRectX);
+		$("#"+rectangleName+"2").toggleClass(showRect+" "+hideRectX);
+		$("#"+rectangleName+"3").toggleClass(showRect+" "+bottomRectX);
+
+		$("#"+slideNavName).toggleClass('hidden revealed');
+	}
+
+	else if($("#"+slideNavName).attr('class')=="revealed")
+	{
+		$("#"+rectangleName+"1").toggleClass(showRect+" "+topRectX);
+		$("#"+rectangleName+"2").toggleClass(showRect+" "+hideRectX);
+		$("#"+rectangleName+"3").toggleClass(showRect+" "+bottomRectX);
+
+		$("#"+slideNavName).toggleClass('revealed hidden');
+	}
 });
 
 $(window).scroll(function(event)
 {
-  if($("#"+slideNavName).attr('class')=="revealed")
-  {
-    $("#"+rectangleName+"1").toggleClass(showRect+" "+topRectX);
-    $("#"+rectangleName+"2").toggleClass(showRect+" "+hideRectX);
-    $("#"+rectangleName+"3").toggleClass(showRect+" "+bottomRectX);
-    
-    $("#"+slideNavName).toggleClass('revealed hidden');
-  }
+	if($("#"+slideNavName).attr('class')=="revealed")
+	{
+		$("#"+rectangleName+"1").toggleClass(showRect+" "+topRectX);
+		$("#"+rectangleName+"2").toggleClass(showRect+" "+hideRectX);
+		$("#"+rectangleName+"3").toggleClass(showRect+" "+bottomRectX);
+
+		$("#"+slideNavName).toggleClass('revealed hidden');
+	}
+});
+
+
+
+// Search results - added by MJ 5/17/2018
+$(function() {
+	// Index which we will populate later
+	var idx;  
+	// We will store our JSON data here to use later
+	var json_data;
+
+	// Get the generated search_data.json file so lunr.js can search it locally.
+	var data = $.getJSON('/search_data.json', function(loaded_data) {
+		// Store a copy of our JSON data
+		json_data = loaded_data;
+		
+		// Initialize lunr with the fields to be searched, plus the boost.
+		idx = lunr(function () {
+			this.field('id');
+			this.field('title');
+			this.field('author');
+			this.field('image');
+			this.field('excerpt', { boost: 10 });
+			this.field('url');
+
+			var outerThis = this;
+			var fake_id = 100
+			
+			$.each(loaded_data, function(index, value) {
+				outerThis.add (
+					$.extend({ "id": index }, value)
+				);
+				
+			});
+		});
+		
+		// for debugging - display the contents of the index
+		console.log('Document count: ' + idx.documentCount);
+	
+		var search_term = findGetParameter('search');
+		var results = idx.search(search_term); // Get lunr to perform a search
+
+		display_search_results(results); // Hand the results off to be displayed
+	});  
+
+
+	function findGetParameter(parameterName) {
+		var result = null,
+    		tmp = [];
+		location.search
+        	.substr(1)
+        	.split("&")
+        	.forEach(function (item) {
+				tmp = item.split("=");
+				if (tmp[0] === parameterName) result = decodeURIComponent(tmp[1]);
+     		});
+		return result;
+	}
+
+	function display_search_results(results) {
+		var $search_results = $("#search_results");
+
+		// Are there any results?
+		if (results.length) {
+			$search_results.empty(); // Clear any old results
+
+			// Iterate over the results
+			results.forEach(function(result) {
+				var item = json_data[result.ref];
+
+				// Build a snippet of HTML for this result
+				var appendString = '<div style="display: block; margin-bottom: 10px;"><a href="' + item.url + '"><img src="' + item.image + '" style="height: 150px; border: 0; margin-right: 20px; float: left;"></a><a href="' + item.url + '"><h3 style="color: black;">' + item.title + '</h3></a>' + item.excerpt + '<br clear="left" /></div>';
+
+				// Add the snippet to the collection of results.
+				$search_results.append(appendString);
+			});
+		} else {
+			// If there are no results, let the user know.
+			$search_results.html('<li>No results found. (Very sorry, so sad.)</li>');
+		}
+	}
 });
 
 </script>
