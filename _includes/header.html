@@ -1,16 +1,29 @@
 <header role="banner">
     <a class="blogname" href="{{site.baseurl}}/index.html">
-      <img src="{{site.baseurl}}/images/genesys_impact_logo.png" class="logo">
       <img src="{{site.baseurl}}/images/genesys_impact_logo-inverted.png" class="affix-logo">
     </a>
       <nav>
-        <ul>
+        <ul id="top-menu">
           <li>
             <a class="phone" href="tel:2024505453">
               <span class="flaticon-telephone"></span> <tel>(202) 450-5453</tel>
             </a>
           </li>
+          <li class="menu-item "><a href="{{site.baseurl}}/index.html">Home</a></li>
+          <li>::</li>
           <li class="menu-item "><a href="{{site.baseurl}}/about.html">About</a></li>
+          <li>::</li>
+          <li class="menu-item"><a href="{{site.baseurl}}/blog.html">Blog</a></li>
+          <li>::</li>
+          <li class="menu-item"><a href="{{site.baseurl}}/careers.html">Careers</a></li>
+          <li class="search-icon" id="search-li">
+            <form action="/search.html" method="get">
+              <span class="flaticon-magnifier"></span>
+            	<input name="search" id="search" type="search" data-search-input onkeypress="if(event.keyCode==13) {this.submit();}"></input>
+            </form>
+          </li>
+        </ul>
+        <ul id="bottom-menu">
           <li class="menu-item"><a href="#">Services <span class="flaticon-down"></span></a>
             <ul class="sub-menu">
             	<li class="menu-item"><a href="{{site.baseurl}}/it-infrastructure.html">IT Infrastructure</a></li>
@@ -21,9 +34,13 @@
             </ul>
           </li>
           <li class="menu-item"><a href="{{site.baseurl}}/our-work.html">Our Work</a></li>
-          <li class="menu-item"><a href="{{site.baseurl}}/blog.html">Blog</a></li>
           <li class="menu-item"><a href="{{site.baseurl}}/contact.html">Contact</a></li>
-          <li id="search-li">
+          <li class="phone-icon">
+            <a class="phone" href="tel:2024505453">
+              <span class="flaticon-telephone"></span> <tel>(202) 450-5453</tel>
+            </a>
+          </li>
+          <li class="search-icon" id="search-li">
             <form action="/search.html" method="get">
               <span class="flaticon-magnifier"></span>
             	<input name="search" id="search" type="search" data-search-input onkeypress="if(event.keyCode==13) {this.submit();}"></input>
