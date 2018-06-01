@@ -637,7 +637,7 @@ blockquote {
 
 #hamb:focus {outline:none;}
 
-#hamb:hover .rect {background-color: #fcfc00;}
+#hamb:hover .rect {background-color: #572a7b;}
 
 #rect1, #rect2, #rect3
 {
@@ -645,7 +645,7 @@ blockquote {
   position: relative; float: left;
   width: 100%;
   height: 3px;
-  background-color: #fff;
+  background-color: #572a7b;
   
   /*THIS IS WHAT MAKES YOUR HAMBURGER RECTANGLES SLIDE INTO AN 'X'*/
   -webkit-transition: all 0.3s ease-out;
@@ -746,8 +746,10 @@ blockquote {
 
 header {
     z-index:9999999;
-    background: rgba(0,0,0,0.20);
+    background: white;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.05);
     width: 100%;
+    padding:16px;
     box-sizing: border-box;
     position: fixed;
     z-index:1000;
@@ -760,29 +762,24 @@ header {
 }
 
 .affix {
-    background: white;
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.05);
     transition: all 0.25s ease;
 }
 
 .blogname {
     display: flex;
     align-items: center;
-    padding:16px;
+    /*padding:16px;*/
 }
 
-.logo {
-    width: 23vw;
+.affix-logo {width:23vw;}
+
+header #top-menu li {
+    height: auto;
+    font-size: 1.6em;
 }
 
-.affix-logo {width:23vw; display:none;}
-
-.affix ul li {background:white;}
-.affix ul a {color:#1d1a23;}
-.affix ul li:last-child a {color:white;}
-.affix ul li:last-child {background:#1d1a23;}
+header ul a {color:#1d1a23;}
 .affix .affix-logo {display:block;}
-.affix .logo {display:none;}
 
 sup {
     top: -0.5em;
@@ -792,13 +789,8 @@ sup {
 header ul .phone {
     font-size: 1.3em;
     font-weight: 500;
-    color: #8f819b;
+    color: #5e2b7b;
 }
-
-header ul li:first-child:hover {background: rgba(0, 0, 0, 0.1)}
-.affix ul li:first-child:hover, .affix ul li:first-child:hover a {background: rgba(0, 0, 0, 0); color:inherit;}
-
-.affix ul .phone {color:#7d708a;}
 
 header ul #search-li {
     font-size: 1.8em;
@@ -806,27 +798,35 @@ header ul #search-li {
     color: #8f819b;
 }
 
-header ul #search-li:hover {background: rgba(0, 0, 0, 0.1)}
+/*header ul #search-li:hover {background: rgba(0, 0, 0, 0.1)}*/
 header ul #search-li:hover span {color:#b4a8bd;}
 
 header ul {
     display: flex;
     flex-direction: row;
-    -webkit-justify-content: space-evenly;
-    justify-content: space-evenly;
+    -webkit-justify-content: flex-end;
+    justify-content: flex-end;
     align-items: center;
     margin:0;
     padding:0px;
 }
 
-header ul li {
+header #top-menu li {
     list-style: none;
-    padding: 0 16px;
+    padding: 0 11px;
     display: flex;
     align-items: center;
-    background: rgba(0, 0, 0, 0.1);
-    height: 100px;
-    font-size:1.6em;
+    font-family:IBM Plex Sans;
+    position: relative;
+}
+
+header ul li {
+    list-style: none;
+    padding: 5px 16px 5px;
+    margin-bottom: -5px;
+    display: flex;
+    align-items: center;
+    font-size:2.3em;
     font-family:IBM Plex Sans;
     position: relative;
 }
@@ -835,30 +835,26 @@ header ul li .flaticon-down {font-size:0.5em; padding-bottom:2px;}
 
 header ul li:last-child {
     list-style: none;
-    padding: 0 16px;
+    /*padding: 0 16px;*/
     display: flex;
     align-items: center;
-    background: rgba(0, 0, 0, 0.3);
-    height: 100px;
+    /*background: rgba(0, 0, 0, 0.3);*/
+    /*height: 100px;*/
     font-size: 1.8em;
     font-family: IBM Plex Sans;
 }
 header ul li ul {display:none;}
 header ul li:hover ul {display:flex;}
-header ul li:hover, .affix ul li:hover a {background:#592b77; color:white;}
-.affix ul li:hover ul li a {background:#ffffff; color:#1d1a23;}
-.affix ul li ul li:last-child {background:#ffffff; color:white;}
-header ul li ul li:hover, .affix ul li ul li:hover {background: #ffffff; color:#592b77;}
+header ul li ul li:hover {background: #ffffff; color:#592b77;}
 
 header ul li .flaticon-magnifier {
     font-size: 1.3em;
-    color: #7d708a;
+    color: #572a7b;
     cursor: pointer;
 }
-.affix ul li .flaticon-magnifier {
-    color: #7d708a;
-}
-.affix ul li:hover .flaticon-magnifier {color: #7d708a;}
+
+#bottom-menu .phone-icon, #bottom-menu .search-icon {display:none;}
+
 ul.sub-menu {
     position: absolute;
     background: white;
@@ -867,7 +863,7 @@ ul.sub-menu {
     flex-direction: column;
     justify-content: normal;
     align-items: center;
-    top: 100px;
+    top: 45px;
     padding:11px;
     left: 0;
     text-align: left;
@@ -889,7 +885,7 @@ ul.sub-menu:before {
     flex-direction: column;
     height: auto;
     background: none;
-    font-size: 0.8em;
+    font-size: 0.6em;
     line-height: 1.828;
     text-transform: uppercase;
     text-align: left;
@@ -898,7 +894,7 @@ ul.sub-menu:before {
 
 .sub-menu li:last-child {
     background: inherit;
-    font-size: 0.8em;
+    font-size: 0.6em;
     height: auto;
     padding: 0;
     text-align: left;
@@ -954,9 +950,10 @@ input[type=search] {
 
 input[type=search]:focus {
 	width: 130px;
-	color: #ffffff;
+	color:#1d1a22;
 	cursor: auto;
 	margin-left:0px;
+	 font-weight:500;
 	padding-left:11px;
 }
 
@@ -997,6 +994,7 @@ p {font-size:1.6em; line-height:1.414; margin:0px 0px 16px; font-family:IBM Plex
     position: absolute;
     top: 50%;
     left: 50%;
+    padding-top:100px;
     width: auto;
     min-width: 100%;
     height: auto;
@@ -1015,7 +1013,7 @@ p {font-size:1.6em; line-height:1.414; margin:0px 0px 16px; font-family:IBM Plex
     display: flex;
     color: white;
     flex-direction: column;
-    width:50%;
+    width: 50%;
     width: -moz-min-content;
     width: -webkit-min-content;
     width: -o-min-content;
@@ -1077,7 +1075,7 @@ p {font-size:1.6em; line-height:1.414; margin:0px 0px 16px; font-family:IBM Plex
     -webkit-justify-content: flex-end;
     justify-content: flex-end;
     align-items: flex-start;
-    height:100vh;
+    height:85vh;
     width:100%;
     background: rgba(90, 43, 119, 0.25);
     padding:0px;
@@ -1100,13 +1098,22 @@ p {font-size:1.6em; line-height:1.414; margin:0px 0px 16px; font-family:IBM Plex
 
 .about .services {width:auto;}
 
-.about .banner h1 {padding: 0 26vw 0 0;}
+/*.about .banner h1 {padding: 0 26vw 0 0;}*/
 
-.about .banner p {font-size: 2.3em;}
+.about .banner h2 {
+    font-size: 1.8em;
+    letter-spacing: 2px;
+    line-height: 1.414;
+    margin: 0px;
+    font-family: IBM Plex Sans;
+    /* font-style: italic; */
+    font-weight: 500;
+    text-transform: uppercase;
+}
 
 .about .banner .excerpt {
-    text-align: left;
-    width:50%;
+    text-align: center;
+    /*width:50%;*/
 }
 
 .page .entry-content {max-width:767px; margin:0 auto;}
@@ -1146,10 +1153,10 @@ p {font-size:1.6em; line-height:1.414; margin:0px 0px 16px; font-family:IBM Plex
 .post .banner h1 {margin-top:0px;}
 
 .home .banner h1 {
-    font-size: 9vw;
+    font-size: 5.6vw;
     font-family: IBM Plex Sans Condensed;
     font-weight: 500;
-    font-style: italic;
+    font-style: normal;
     color: white;
     margin: 0px;
     padding: 4.5vw 1.6vw 0 0;
@@ -1178,27 +1185,25 @@ p {font-size:1.6em; line-height:1.414; margin:0px 0px 16px; font-family:IBM Plex
     width:100%;
     width:-webkit-fill-available;
 }
+
 .banner-cta {
     width: 100%;
     background: rgba(89, 43, 119, 0.6);
     box-sizing: border-box;
     text-align: center;
     display: flex;
-    -webkit-justify-content: center;
-    justify-content: center;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
     align-items: center;
-    padding: 1.6em 4.5vw;
+    padding: 2.3vw 4.5vw;
 }
 
-.banner-cta h3 {
-    font-size: 3.2vw;
+.banner-cta a {
+    font-size: 3.2em;
     font-family: IBM Plex sans;
-    font-style: italic;
+    font-style: normal;
     font-weight: 500;
-    color: #ffffff;
-    padding-right: 1.6em;
-    border-right: 3px dotted rgba(0,0,0,0.5);
-    margin: 0.7em;
+    color: rgba(255, 255, 255, 0.75);
 }
 
 .banner-cta button {
@@ -1278,6 +1283,8 @@ p {font-size:1.6em; line-height:1.414; margin:0px 0px 16px; font-family:IBM Plex
     color: white;
 }
 
+article {position:relative;}
+
 .landing .entry-content article, .single-service .entry-content article {width:100%;}
 
 .landing .entry-content ul, .single-service .entry-content ul, .single-service .entry-content ol {
@@ -1314,8 +1321,8 @@ p {font-size:1.6em; line-height:1.414; margin:0px 0px 16px; font-family:IBM Plex
 }
 
 #trust {
-  background:#1d1a22;
-  padding:9em 4.5vw;
+  background:#ffffff;
+  padding:6.4vw 4.5vw;
   text-align:center;
   width:100%;
   box-sizing:border-box;
@@ -1329,7 +1336,7 @@ p {font-size:1.6em; line-height:1.414; margin:0px 0px 16px; font-family:IBM Plex
 }
 
 #trust h2 {
-    color:#90819b;
+    color:#5a2b77;
     font-weight:500;
     font-family: IBM Plex Sans;
     line-height:1.414;
@@ -1342,19 +1349,19 @@ p {font-size:1.6em; line-height:1.414; margin:0px 0px 16px; font-family:IBM Plex
     width:max-content;
 }
 #trust p {
-    color: #FFFFFF;
+    color: #42413d;
     font-weight: 300;
     font-family: IBM Plex Sans;
     line-height: 1.636;
     font-size: 2.3em;
 }
-#trust a {color:#90819b; font-size:1.8em; font-family: IBM Plex Sans; line-height:4.242; font-weight: 700}
+#trust a {color:#5a2b77; font-size:1.8em; font-family: IBM Plex Sans; line-height:1.414; font-weight: 700}
 #work a {color:#5a2b77; font-size:1.8em; font-family: IBM Plex Sans; line-height:4.242; font-weight: 700}
 
 #logos {
-    background: #f6f6f6;
-    border-top: 1px solid #e1e1e1;
-    border-bottom: 1px solid #e1e1e1;
+    background: #fdfdfd;
+    border-top: 1px solid #f1f1f1;
+    border-bottom: 1px solid #f1f1f1;
     padding: 3.2vw 4.5vw;
     display: flex;
     -webkit-justify-content: space-around;
@@ -1391,7 +1398,7 @@ p {font-size:1.6em; line-height:1.414; margin:0px 0px 16px; font-family:IBM Plex
 #services .our-services a {color:inherit;}
 #services h3, #work h3 {
     font-family: IBM Plex Sans;
-    font-size: 4.5em;
+    font-size: 3.2em;
     font-weight: 600;
     line-height: 1.414;
     margin: 0;
@@ -1400,7 +1407,7 @@ p {font-size:1.6em; line-height:1.414; margin:0px 0px 16px; font-family:IBM Plex
     width: -o-max-content;
     width: -ms-max-content;
     width: max-content;
-    padding: 0 10vw 0 0;
+    padding: 0 13vw 0 0;
     color: #c5c2c2;
 }
 .about #work h3 {
@@ -1417,7 +1424,7 @@ p {font-size:1.6em; line-height:1.414; margin:0px 0px 16px; font-family:IBM Plex
 }
 #services h4 {
     font-family: IBM Plex Sans;
-    font-size: 1.8em;
+    font-size: 1.6em;
     font-weight: 500;
     line-height: 1.414;
     margin: 0;
@@ -1490,7 +1497,7 @@ p {font-size:1.6em; line-height:1.414; margin:0px 0px 16px; font-family:IBM Plex
     text-decoration: none;
     font-family: IBM Plex Sans;
     font-weight: 400;
-    font-size: 1.8em;
+    font-size: 1.6em;
 }
 .gallery-inner h4 a {font-size:inherit; color:inherit}
 #cta {
@@ -1724,7 +1731,7 @@ textarea:focus, textarea:focus-within {
     background-size:cover;
     background-position:center center;
     width: 50%;
-    height: 60vw;
+    min-height: 60vw;
 }
 .box {
     background: #592b76;
@@ -1906,7 +1913,7 @@ tel {display:none;}
     -webkit-justify-content:space-around;
     justify-content: space-around;
 }
-.about .banner {height:70vw;}
+.about .banner {height:40vw;}
 .landing #content, .single-service #content {
     padding: 18vw 9vw 13vw;
 }
@@ -1922,15 +1929,20 @@ footer .logo {width:23vw;}
 .our-work {width:100%; padding:9em 4.5vw;}
 .work-img {display:none;}
 .about-img {
-    height: 100vw;
+    height: 120vw;
 }
 }
 
 @media only screen and (max-width: 767px) {
+
+header {padding: 0px 16px;}
+header  #top-menu {display:none;}
   .page .banner {
     height: 80vw;
     width:100%;
 }
+#bottom-menu .phone-icon, #bottom-menu .search-icon {display:block;}
+header ul .phone {font-size:1.1em;}
 
 .portfolio .banner {height:140vw; width:100%; padding:4.5vw}
 dl dt {
@@ -1940,7 +1952,7 @@ dl dt {
     border-bottom: 1px dotted #5a2b77;
 }
   #mobile-menu {display:block;}
-.logo {width: 66vw;}
+
 footer .logo {
     width: 100%;
 }
@@ -1973,6 +1985,7 @@ h3 {
 }
 #services h3, #work h3 {color: #592b77;}
 .banner-cta {
+  display:none;
   background:rgba(90, 43, 119, 0.8);
   padding: 1.1em;
 }
@@ -2028,7 +2041,7 @@ h3 {
 }
 
 .about .our-work {width: 100%;}
-.about .banner {height: 150vw; flex-direction: row;}
+.about .banner {height: 100vw; flex-direction: row;}
 .about .banner h1 {
     padding: 0;
 }
@@ -2059,5 +2072,5 @@ footer ul {display:none;}
 
 @media only screen and (min-width: 1200px) {
   .about .banner {height: 30vw; padding-top:4.5vw;}
-  .page .banner {height: 25vw;}
+  .page .banner {height: 35vw;}
 }
