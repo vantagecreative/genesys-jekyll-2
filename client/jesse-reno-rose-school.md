@@ -1,14 +1,13 @@
 ---
-title: Paul Laurence Dunbar Apartments
+title: Jesse Reno Rose School
 date: 2018-04-10T02:27:45+00:00
 author: genesys
 layout: landing
 image:
 ---
-<p>At the Paul Laurence Dunbar Apartments in northwest Washington, DC, Genesys Impact was tasked by Jair Lynch Real Estate Partners to design and implement the telecommunication structured cabling system, CAT6 and fiber cabling for voice and data and to rebuild the telecom rooms. Our technicians:</p>
-<ul>
-    <li>Installed racks, patch panels, cables (vertical/horizontal), fiber wiring and connectors</li>
-    <li>Installed and terminated all CAT6 cables with RJ45 connectors and faceplates</li>
-    <li>Labeled all data/voice outlets, patch channels, punch blocks and feed cables</li>
-    <li>Tested cabling and data/voice jacks for compliance with TIA/EIA/NAFPA/NEC standards for communications cabling using appropriate BICSI methods</li>
-</ul>
+
+<p>Updating our school’s IT Infrastructure and Security to help keep schools safe is a top priority at Genesys Impact. At the historic Jesse Reno Rose School, our team was tasked with supplying equipment, materials and labor for installing and configuring telecommunications and security systems.</p>
+
+<p>Over 60,000 feet of CAT6 cables, 18/4 cables, cable tray pathways, conduits, sleeves and power systems were installed throughout the building. Genesys Impact furnished and installed the fiber optic vertical cabling between TRs (MDF and IDFs) and a complete cable channel assembly to include: horizontal cable, patch panel port, faceplates and jacks.</p>
+
+<p>Additionally, installation consisted of an access control system, CCTV surveillance system, and an intrusion detection alarm system.</p>
