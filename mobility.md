@@ -2,6 +2,7 @@
 title: Mobility
 date: 2018-04-29T19:28:51+00:00
 author: genesys
+excerpt: Getting You There On Time
 layout: page
 image: /images/apps-business-cellphone-892769-700x450.jpg
 ---
@@ -9,16 +10,11 @@ image: /images/apps-business-cellphone-892769-700x450.jpg
 <dl id="accordion" class="accordion">
                 <dt><a id="1" href="">Mobility Platform</a></dt>
                 <dd>
-                    <p>We are on the verge of  another transportation revolution and many traditional transportation businesses are evolving to meet the demands of its customers. The Genesys Impact Mobility Platform helps transportation companies advance and modernize their business models to compete in today’s market.</p>
-                    <p>The Genesys Impact Mobility Platform supports transportation businesses with iOS and Android applications development, mobile backend development, API development and online user acquisition. </p>
-                </dd>
-                <dt><a id="2" href="">Secure and Scalable Technology</a></dt>
-                <dd>
-                    <p>The Genesys Impact Mobility team has expertise in technologies that scale with your business. We adhere to strict security guidelines to ensure safety of your data while reducing costs and fraud.</p>
+                    <p>The Genesys Impact Mobility Platform helps transportation companies advance and modernize their business models to compete in today’s market. Our platform supports transportation businesses with iOS and Android applications development, mobile backend development, API development and online user acquisition.</p>
                 </dd>
                 <dt><a id="3" href="">Payment Platform</a></dt>
                 <dd>
-                    <p>Payments are an integral part of any marketplace. When service providers are paid timely, have robust reporting, and access to manage their own payment accounts, they come back to the platform to provide great customer experiences. Payments platform are also very complex. They are vulnerable to fraud, hackers, and other bad actors. The Genesys Impact Mobility platform features a robust driver payment platform that is built on top of Stripe and PCI compliance. Stripe handles billions of dollars every year for forward-thinking businesses around the world.</p>
+                    <p>Payments platforms are vulnerable to fraud, hackers, and other bad actors. The Genesys Impact Mobility platform features a robust driver payment platform that is built on top of Stripe and PCI compliance. Stripe handles billions of dollars every year for forward-thinking businesses around the world.</p>
                 </dd>
                 <dt><a id="3" href="">Fare Calculation</a></dt>
                 <dd>
